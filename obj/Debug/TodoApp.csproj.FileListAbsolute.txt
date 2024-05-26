@@ -1,0 +1,11 @@
+J:\ARCHIVOS\dev\dotNet\TodoApp\bin\Debug\TodoApp.exe.config
+J:\ARCHIVOS\dev\dotNet\TodoApp\bin\Debug\TodoApp.exe
+J:\ARCHIVOS\dev\dotNet\TodoApp\bin\Debug\TodoApp.pdb
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.csproj.AssemblyReference.cache
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.Form1.resources
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.Properties.Resources.resources
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.csproj.GenerateResource.cache
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.csproj.CoreCompileInputs.cache
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.exe
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.pdb
+J:\ARCHIVOS\dev\dotNet\TodoApp\obj\Debug\TodoApp.UserControl1.resources
