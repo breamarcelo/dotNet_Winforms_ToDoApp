@@ -1,3 +1,12 @@
-{
-
-}
+[
+  {
+    "Title": "First Item",
+    "Description": "Buy groceries",
+    "Completed": false
+  },
+  {
+    "Title": "Second Item",
+    "Description": "Call mom",
+    "Completed": false
+  }
+]
