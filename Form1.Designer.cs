@@ -104,16 +104,16 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.Controls.Add(this.userControl11);
-            this.panel4.Location = new System.Drawing.Point(139, 214);
+            this.panel4.Location = new System.Drawing.Point(100, 162);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(576, 663);
+            this.panel4.Size = new System.Drawing.Size(400, 400);
             this.panel4.TabIndex = 0;
             // 
             // userControl11
             // 
             this.userControl11.BackColor = System.Drawing.Color.LightSlateGray;
-            this.userControl11.Location = new System.Drawing.Point(106, 141);
+            this.userControl11.Location = new System.Drawing.Point(0, 0);
             this.userControl11.Name = "userControl11";
             this.userControl11.Size = new System.Drawing.Size(400, 400);
             this.userControl11.TabIndex = 0;

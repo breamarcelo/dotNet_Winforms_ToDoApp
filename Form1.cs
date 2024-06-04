@@ -13,14 +13,14 @@ using System.IO;
 
 namespace TodoApp
 {
-    public class ToDoItem
-    {
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public bool Completed { get; set; }
-    }
     public partial class Form1 : Form
     {
+        public class ToDoItem
+        {
+            public string Title { get; set; }
+            public string Description { get; set; }
+            public bool Completed { get; set; }
+        }
         int itemId = 1;
 
         public Form1()
@@ -44,6 +44,36 @@ namespace TodoApp
                 todoItems[i] = todItem;
                 i++;
             }
+
+            foreach (var item in todoItems)
+            {
+                Panel newItemPanel = new Panel();
+                newItemPanel.BackColor = Color.Red;
+                newItemPanel.Width = 500;
+                newItemPanel.Height = 100;
+                newItemPanel.Left = 50;
+                if(itemId == 1)
+                {
+                    newItemPanel.Top = 25;
+                } else
+                {
+                    newItemPanel.Top = itemId * 125;
+                }
+
+                TextBox titleText = new TextBox();
+                titleText.Text = this.itemId.ToString() + item.Title;
+                titleText.Left = 0; titleText.Top = 0;
+                newItemPanel.Controls.Add(titleText);
+
+                TextBox descText = new TextBox();
+                descText.Text = item.Description;
+                descText.Left = 0; descText.Top = 25;
+                newItemPanel.Controls.Add(descText);
+
+                panel3.Controls.Add(newItemPanel);
+
+                itemId++;
+            } 
         }
 
         private void button1_Click(object sender, EventArgs e)
